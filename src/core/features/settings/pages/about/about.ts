@@ -32,8 +32,8 @@ export class CoreSettingsAboutPage {
     appName: string;
     versionName: string;
     privacyPolicy: string;
-    feedbackFormUrl = CoreConstants.CONFIG.feedbackFormUrl ?? 'https://feedback.moodle.org/mobileapp';
-    a11yStatement = CoreConstants.CONFIG.a11yStatement ?? 'https://apps.moodle.com/admin/tool/policy/view.php?versionid=5';
+    feedbackFormUrl = 'https://swiftlearn.co.uk/help-improve-app';
+    a11yStatement = 'https://swiftlearn.co.uk/app-accessibility-statement';
     currentSite?: CoreSite;
 
     constructor() {
